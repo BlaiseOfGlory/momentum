@@ -1,0 +1,15 @@
+{
+  "name": "momentum",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "momentum": "src/index.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/bun": "^1.2.0"
+  }
+}

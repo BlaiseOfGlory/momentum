@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Wiz Blog",
+    "domain": "wiz.io",
+    "rss_url": "https://www.wiz.io/blog/rss",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability",
+      "supply-chain",
+      "ai-security"
+    ]
+  },
+  {
+    "name": "Huntress Blog",
+    "domain": "huntress.com",
+    "rss_url": "https://www.huntress.com/blog/rss.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability",
+      "breach"
+    ]
+  },
+  {
+    "name": "SpecterOps Blog",
+    "domain": "specterops.io",
+    "rss_url": "https://specterops.io/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "watchtowr Labs",
+    "domain": "labs.watchtowr.com",
+    "rss_url": "https://labs.watchtowr.com/rss/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Unit42",
+    "domain": "unit42.paloaltonetworks.com",
+    "rss_url": "https://unit42.paloaltonetworks.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Google TAG",
+    "domain": "blog.google",
+    "rss_url": "https://blog.google/threat-analysis-group/rss/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "BHIS",
+    "domain": "blackhillsinfosec.com",
+    "rss_url": "https://www.blackhillsinfosec.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Snyk Blog",
+    "domain": "snyk.io",
+    "rss_url": "https://snyk.io/blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "supply-chain",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "BleepingComputer",
+    "domain": "bleepingcomputer.com",
+    "rss_url": "https://www.bleepingcomputer.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability",
+      "breach",
+      "nation-state"
+    ]
+  },
+  {
+    "name": "The Hacker News",
+    "domain": "thehackernews.com",
+    "rss_url": "https://feeds.feedburner.com/TheHackersNews",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability",
+      "breach",
+      "ai-security"
+    ]
+  },
+  {
+    "name": "Ars Technica Security",
+    "domain": "arstechnica.com",
+    "rss_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability",
+      "industry"
+    ]
+  },
+  {
+    "name": "SANS ISC Diary",
+    "domain": "isc.sans.edu",
+    "rss_url": "https://isc.sans.edu/rssfeed.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability",
+      "phishing-social"
+    ]
+  },
+  {
+    "name": "ANY.RUN Blog",
+    "domain": "any.run",
+    "rss_url": "https://any.run/cybersecurity-blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "phishing-social",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Aikido Blog",
+    "domain": "aikido.dev",
+    "rss_url": "https://www.aikido.dev/blog/rss.xml",
+    "tier": 1,
+    "category_bias": [
+      "supply-chain",
+      "vulnerability"
+    ]
+  }
+]
