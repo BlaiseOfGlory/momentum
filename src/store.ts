@@ -9,7 +9,7 @@ export interface Article {
   source_name: string;
   source_tier: number;
   ingested_at: string; // ISO 8601
-  origin: "rss" | "discord";
+  origin: "rss" | "discord" | "watchlist";
   event_id: string | null;
 }
 
@@ -241,7 +241,7 @@ function isArticle(obj: Record<string, unknown>): boolean {
     typeof obj.source_name === "string" &&
     typeof obj.source_tier === "number" &&
     typeof obj.ingested_at === "string" &&
-    (obj.origin === "rss" || obj.origin === "discord") &&
+    (obj.origin === "rss" || obj.origin === "discord" || obj.origin === "watchlist") &&
     (obj.event_id === null || typeof obj.event_id === "string")
   );
 }

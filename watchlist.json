@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SiCk (afflicted.sh)",
+    "url": "https://afflicted.sh/blog/",
+    "domain": "afflicted.sh",
+    "tier": 1,
+    "category_bias": ["vulnerability", "tool-release"],
+    "link_pattern": "posts/"
+  },
+  {
+    "name": "Stuart Thomas Security Research",
+    "url": "https://stuart-thomas.com/security-research.html",
+    "domain": "stuart-thomas.com",
+    "tier": 1,
+    "category_bias": ["vulnerability"],
+    "link_pattern": "/research/"
+  },
+  {
+    "name": "Anthropic Frontier Red Team",
+    "url": "https://red.anthropic.com/",
+    "domain": "red.anthropic.com",
+    "tier": 1,
+    "category_bias": ["ai-security", "vulnerability", "tool-release"],
+    "link_pattern": "/202"
+  }
+]

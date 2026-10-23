@@ -10,6 +10,7 @@ import {
   type Article,
 } from "../store.js";
 import { printList, printObject, formatHelp } from "../format.js";
+import { loadWatchlist, fetchWatchlistPage } from "../watchlist.js";
 
 export async function ingestCommand(args: string[]): Promise<void> {
   const json = args.includes("--json");
@@ -77,6 +78,62 @@ export async function ingestCommand(args: string[]): Promise<void> {
     feedRows.push([source.name, String(newCount), String(skipCount), "ok"]);
     totalNew += newCount;
     totalSkipped += skipCount;
+  }
+
+  // Watchlist: scrape no-RSS blog pages for new posts
+  const watchlist = loadWatchlist();
+  if (watchlist.length > 0) {
+    const watchResults = await Promise.allSettled(
+      watchlist.map((source) => fetchWatchlistPage(source))
+    );
+
+    for (let i = 0; i < watchResults.length; i++) {
+      const source = watchlist[i];
+      const result = watchResults[i];
+
+      if (result.status === "rejected") {
+        errors.push(`${source.name}: ${result.reason}`);
+        feedRows.push([source.name, "0", "0", "error"]);
+        continue;
+      }
+
+      const wr = result.value;
+      if (wr.error) {
+        errors.push(`${source.name}: ${wr.error}`);
+        feedRows.push([source.name, "0", "0", "error"]);
+        continue;
+      }
+
+      let newCount = 0;
+      let skipCount = 0;
+
+      for (const item of wr.items) {
+        const normalized = normalizeUrl(item.url);
+        if (existingUrls.has(normalized)) {
+          skipCount++;
+          continue;
+        }
+
+        existingUrls.add(normalized);
+        const article: Article = {
+          id: generateId(),
+          url: item.url,
+          title: item.title,
+          domain: source.domain,
+          source_name: source.name,
+          source_tier: source.tier,
+          ingested_at: new Date().toISOString(),
+          origin: "watchlist",
+          event_id: null,
+        };
+        allNewArticles.push(article);
+        newCount++;
+      }
+
+      feedRows.push([source.name, String(newCount), String(skipCount), "ok"]);
+      totalNew += newCount;
+      totalSkipped += skipCount;
+    }
   }
 
   if (allNewArticles.length > 0) {
