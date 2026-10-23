@@ -52,7 +52,7 @@
   {
     "name": "Google TAG",
     "domain": "blog.google",
-    "rss_url": "https://blog.google/threat-analysis-group/rss/",
+    "rss_url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
     "tier": 1,
     "category_bias": [
       "nation-state",
@@ -139,6 +139,1417 @@
     "category_bias": [
       "supply-chain",
       "vulnerability"
+    ]
+  },
+  {
+    "name": "Daniel Stenberg (curl)",
+    "domain": "daniel.haxx.se",
+    "rss_url": "https://daniel.haxx.se/blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability",
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Dan Guido (illusivedan)",
+    "domain": "illusivedan.com",
+    "rss_url": "https://illusivedan.com/rss.xml",
+    "tier": 1,
+    "category_bias": [
+      "ai-security",
+      "industry"
+    ]
+  },
+  {
+    "name": "Krebs on Security",
+    "domain": "krebsonsecurity.com",
+    "rss_url": "https://krebsonsecurity.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "Dark Reading",
+    "domain": "darkreading.com",
+    "rss_url": "https://www.darkreading.com/rss.xml",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "SecurityWeek",
+    "domain": "securityweek.com",
+    "rss_url": "https://feeds.feedburner.com/securityweek",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "CyberScoop",
+    "domain": "cyberscoop.com",
+    "rss_url": "https://cyberscoop.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "Bishop Fox",
+    "domain": "bishopfox.com",
+    "rss_url": "https://bishopfox.com/feeds/blog.rss",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "TrustedSec",
+    "domain": "trustedsec.com",
+    "rss_url": "https://trustedsec.com/feed",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Rapid7",
+    "domain": "blog.rapid7.com",
+    "rss_url": "https://blog.rapid7.com/rss/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "MDSec",
+    "domain": "mdsec.co.uk",
+    "rss_url": "https://www.mdsec.co.uk/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Outflank",
+    "domain": "outflank.nl",
+    "rss_url": "https://outflank.nl/blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Pen Test Partners",
+    "domain": "pentestpartners.com",
+    "rss_url": "https://www.pentestpartners.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "SensePost",
+    "domain": "sensepost.com",
+    "rss_url": "https://sensepost.com/blog/rss.xml",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "NetSPI",
+    "domain": "netspi.com",
+    "rss_url": "https://www.netspi.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Praetorian",
+    "domain": "praetorian.com",
+    "rss_url": "https://www.praetorian.com/blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Hack The Box - Red Team",
+    "domain": "hackthebox.com",
+    "rss_url": "https://www.hackthebox.com/rss/blog/red-teaming",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "PortSwigger Research",
+    "domain": "portswigger.net",
+    "rss_url": "https://portswigger.net/research/rss",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Elastic Security Labs",
+    "domain": "elastic.co",
+    "rss_url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "CrowdStrike",
+    "domain": "crowdstrike.com",
+    "rss_url": "https://www.crowdstrike.com/blog/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Recorded Future",
+    "domain": "recordedfuture.com",
+    "rss_url": "https://www.recordedfuture.com/feed",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "tl;dr sec",
+    "domain": "tldrsec.com",
+    "rss_url": "https://rss.beehiiv.com/feeds/xgTKUmMmUm.xml",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "0xdf hacks stuff",
+    "domain": "0xdf.gitlab.io",
+    "rss_url": "https://0xdf.gitlab.io/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "0xv1n",
+    "domain": "0xv1n.github.io",
+    "rss_url": "https://0xv1n.github.io/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Alexander Popov",
+    "domain": "a13xp0p0v.github.io",
+    "rss_url": "https://a13xp0p0v.github.io/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Ackee Blockchain",
+    "domain": "ackee.xyz",
+    "rss_url": "https://ackee.xyz/blog/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Splunk Security Announcements",
+    "domain": "advisory.splunk.com",
+    "rss_url": "https://advisory.splunk.com/feed.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Android Offensive Security Blog",
+    "domain": "androidoffsec.withgoogle.com",
+    "rss_url": "https://androidoffsec.withgoogle.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Stories by assume-breach on Medium",
+    "domain": "assume-breach.medium.com",
+    "rss_url": "https://assume-breach.medium.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "blag",
+    "domain": "avi.im",
+    "rss_url": "https://avi.im/blag/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "AWS Security Digest",
+    "domain": "awssecuritydigest.com",
+    "rss_url": "https://awssecuritydigest.com/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "BadOption.eu",
+    "domain": "badoption.eu",
+    "rss_url": "https://badoption.eu/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Binary Ninja",
+    "domain": "binary.ninja",
+    "rss_url": "https://binary.ninja/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Bad Sector Labs Blog",
+    "domain": "blog.badsectorlabs.com",
+    "rss_url": "https://blog.badsectorlabs.com/feeds/all.atom.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The Cloudflare Blog",
+    "domain": "blog.cloudflare.com",
+    "rss_url": "https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "A Few Thoughts on Cryptographic Engineering",
+    "domain": "blog.cryptographyengineering.com",
+    "rss_url": "https://blog.cryptographyengineering.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Stories by delivr.to on Medium",
+    "domain": "blog.delivr.to",
+    "rss_url": "https://blog.delivr.to/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Didier Stevens",
+    "domain": "blog.didierstevens.com",
+    "rss_url": "https://blog.didierstevens.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Doyensec's Blog",
+    "domain": "blog.doyensec.com",
+    "rss_url": "https://blog.doyensec.com/atom.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "exploits.club",
+    "domain": "blog.exploits.club",
+    "rss_url": "https://blog.exploits.club/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Fox-IT International blog",
+    "domain": "blog.fox-it.com",
+    "rss_url": "https://blog.fox-it.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Include Security Research Blog",
+    "domain": "blog.includesecurity.com",
+    "rss_url": "https://blog.includesecurity.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "NVISO Labs",
+    "domain": "blog.nviso.eu",
+    "rss_url": "https://blog.nviso.eu/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Open Threat Research",
+    "domain": "blog.openthreatresearch.com",
+    "rss_url": "https://blog.openthreatresearch.com/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Pwned Labs Blog",
+    "domain": "blog.pwnedlabs.io",
+    "rss_url": "https://blog.pwnedlabs.io/rss.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Qualys Security Blog",
+    "domain": "blog.qualys.com",
+    "rss_url": "https://blog.qualys.com/feed",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Quarkslab's blog",
+    "domain": "blog.quarkslab.com",
+    "rss_url": "https://blog.quarkslab.com/feeds/all.atom.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "SCRT Team Blog",
+    "domain": "blog.scrt.ch",
+    "rss_url": "https://blog.scrt.ch/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "SySS Tech Blog",
+    "domain": "blog.syss.com",
+    "rss_url": "https://blog.syss.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Cisco Talos Blog",
+    "domain": "blog.talosintelligence.com",
+    "rss_url": "https://blog.talosintelligence.com/rss/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Thinkst Thoughts",
+    "domain": "blog.thinkst.com",
+    "rss_url": "https://blog.thinkst.com/feed",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The Trail of Bits Blog",
+    "domain": "blog.trailofbits.com",
+    "rss_url": "https://blog.trailofbits.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Washi",
+    "domain": "blog.washi.dev",
+    "rss_url": "https://blog.washi.dev/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "WhiteFlag",
+    "domain": "blog.whiteflag.io",
+    "rss_url": "https://blog.whiteflag.io/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "XPN InfoSec Blog",
+    "domain": "blog.xpnsec.com",
+    "rss_url": "https://blog.xpnsec.com/rss.xml",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The Official Microsoft Blog",
+    "domain": "blogs.microsoft.com",
+    "rss_url": "https://blogs.microsoft.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "br0k3nlab",
+    "domain": "br0k3nlab.com",
+    "rss_url": "https://br0k3nlab.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "BREAKDEV",
+    "domain": "breakdev.org",
+    "rss_url": "https://breakdev.org/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "bugs.xdavidhu.me",
+    "domain": "bugs.xdavidhu.me",
+    "rss_url": "https://bugs.xdavidhu.me/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Censys",
+    "domain": "censys.com",
+    "rss_url": "https://censys.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Certitude Blog",
+    "domain": "certitude.consulting",
+    "rss_url": "https://certitude.consulting/blog/en/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Le Bron Does Security?",
+    "domain": "chesterlebron.blogspot.com",
+    "rss_url": "https://chesterlebron.blogspot.com/feeds/posts/default",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Stories by CICADA8 on Medium",
+    "domain": "cicada-8.medium.com",
+    "rss_url": "https://cicada-8.medium.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The Citizen Lab",
+    "domain": "citizenlab.ca",
+    "rss_url": "https://citizenlab.ca/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "clearbluejar",
+    "domain": "clearbluejar.github.io",
+    "rss_url": "https://clearbluejar.github.io/feed",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Cloudbrothers",
+    "domain": "cloudbrothers.info",
+    "rss_url": "https://cloudbrothers.info/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "CODE WHITE",
+    "domain": "code-white.com",
+    "rss_url": "https://code-white.com/index.xml",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Cofense",
+    "domain": "cofense.com",
+    "rss_url": "https://cofense.com/feed",
+    "tier": 2,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Computer Security Group",
+    "domain": "comsec.ethz.ch",
+    "rss_url": "https://comsec.ethz.ch/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Connor McGarr\u2019s Blog",
+    "domain": "connormcgarr.github.io",
+    "rss_url": "https://connormcgarr.github.io/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Stories by Florian Roth on Medium",
+    "domain": "cyb3rops.medium.com",
+    "rss_url": "https://cyb3rops.medium.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "DAY[0]",
+    "domain": "dayzerosec.com",
+    "rss_url": "https://dayzerosec.com/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Decoder's Blog",
+    "domain": "decoder.cloud",
+    "rss_url": "https://decoder.cloud/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Detect FYI - Medium",
+    "domain": "detect.fyi",
+    "rss_url": "https://detect.fyi/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "DoublePulsar - Medium",
+    "domain": "doublepulsar.com",
+    "rss_url": "https://doublepulsar.com/feed",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "Eaton Works Feed",
+    "domain": "eaton-works.com",
+    "rss_url": "https://eaton-works.com/feed.atom",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "FalconForce",
+    "domain": "falconforce.nl",
+    "rss_url": "https://falconforce.nl/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Have I Been Pwned latest breaches",
+    "domain": "haveibeenpwned.com",
+    "rss_url": "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches",
+    "tier": 2,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "FORTBRIDGE",
+    "domain": "fortbridge.co.uk",
+    "rss_url": "https://fortbridge.co.uk/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Daniele Antonioli",
+    "domain": "francozappa.github.io",
+    "rss_url": "https://francozappa.github.io/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Frida \u2022 A world-class dynamic instrumentation toolkit",
+    "domain": "frida.re",
+    "rss_url": "https://frida.re/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Culbert Report",
+    "domain": "git.culbertreport.com",
+    "rss_url": "https://git.culbertreport.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Ludus releases",
+    "domain": "gitlab.com",
+    "rss_url": "https://gitlab.com/badsectorlabs/ludus/-/releases.atom",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Good Workaround!",
+    "domain": "goodworkaround.com",
+    "rss_url": "https://goodworkaround.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Graham Helton",
+    "domain": "grahamhelton.com",
+    "rss_url": "https://grahamhelton.com/rss.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Hacking The Cloud",
+    "domain": "hackingthe.cloud",
+    "rss_url": "https://hackingthe.cloud/feed_rss_created.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "hausec",
+    "domain": "hausec.com",
+    "rss_url": "https://hausec.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Zhongquan Li\u2019s blogs",
+    "domain": "imlzq.com",
+    "rss_url": "https://imlzq.com/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Cl\u00e9ment Labro",
+    "domain": "infosec.exchange",
+    "rss_url": "https://infosec.exchange/@itm4n.rss",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "itm4n's blog",
+    "domain": "itm4n.github.io",
+    "rss_url": "https://itm4n.github.io/feed",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Jackson T.",
+    "domain": "jackson-t.com",
+    "rss_url": "https://jackson-t.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "jakewnuk.com",
+    "domain": "jakewnuk.com",
+    "rss_url": "https://jakewnuk.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Mickey\u2019s Blogs",
+    "domain": "jhftss.github.io",
+    "rss_url": "https://jhftss.github.io/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Cognisys Group Labs",
+    "domain": "labs.cognisys.group",
+    "rss_url": "https://labs.cognisys.group/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "lcamtuf\u2019s thing",
+    "domain": "lcamtuf.substack.com",
+    "rss_url": "https://lcamtuf.substack.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "maia blog",
+    "domain": "maia.crimew.gay",
+    "rss_url": "https://maia.crimew.gay/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "malacupa.com",
+    "domain": "malacupa.com",
+    "rss_url": "https://malacupa.com/atom.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "MALoney (It's in the name)",
+    "domain": "malwaremaloney.blogspot.com",
+    "rss_url": "https://malwaremaloney.blogspot.com/feeds/posts/default",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Mayfly",
+    "domain": "mayfly277.github.io",
+    "rss_url": "https://mayfly277.github.io/feed",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Stories by bilal al-qurneh on Medium",
+    "domain": "medium.com",
+    "rss_url": "https://medium.com/@0xcc00/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Stories by Tal Be'ery on Medium",
+    "domain": "medium.com",
+    "rss_url": "https://medium.com/@TalBeerySec/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Stories by MITRE Caldera on Medium",
+    "domain": "medium.com",
+    "rss_url": "https://medium.com/@mitrecaldera/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Minder-Security",
+    "domain": "minder-security.ghost.io",
+    "rss_url": "https://minder-security.ghost.io/rss/",
+    "tier": 3,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Matthew Garrett",
+    "domain": "mjg59.dreamwidth.org",
+    "rss_url": "https://mjg59.dreamwidth.org/data/rss",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "MrBruh's Epic Blog",
+    "domain": "mrbruh.com",
+    "rss_url": "https://mrbruh.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Neil Panchal",
+    "domain": "neil.computer",
+    "rss_url": "https://neil.computer/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Neil Madden",
+    "domain": "neilmadden.blog",
+    "rss_url": "https://neilmadden.blog/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Neodyme\u2019s Blog",
+    "domain": "neodyme.io",
+    "rss_url": "https://neodyme.io/rss.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Objective-See's Blog",
+    "domain": "objective-see.org",
+    "rss_url": "https://objective-see.org/rss",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "OSV Blog",
+    "domain": "osv.dev",
+    "rss_url": "https://osv.dev/blog/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Outpost24",
+    "domain": "outpost24.com",
+    "rss_url": "https://outpost24.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Paged Out! Magazine",
+    "domain": "pagedout.institute",
+    "rss_url": "https://pagedout.institute/atom.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Almost Secure",
+    "domain": "palant.info",
+    "rss_url": "https://palant.info/rss.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Cloud Chronicles",
+    "domain": "permiso.io",
+    "rss_url": "https://permiso.io/blog/rss.xml",
+    "tier": 2,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Peter Gabaldon",
+    "domain": "pgj11.com",
+    "rss_url": "https://pgj11.com/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Research Blog",
+    "domain": "projectblack.io",
+    "rss_url": "https://projectblack.io/blog/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Raesene's Ramblings",
+    "domain": "raesene.github.io",
+    "rss_url": "https://raesene.github.io/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "Rasta Mouse",
+    "domain": "rastamouse.me",
+    "rss_url": "https://rastamouse.me/rss/",
+    "tier": 3,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Red Canary",
+    "domain": "redcanary.com",
+    "rss_url": "https://redcanary.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "RedHunt Labs",
+    "domain": "redhuntlabs.com",
+    "rss_url": "https://redhuntlabs.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Aura Research Division",
+    "domain": "research.aurainfosec.io",
+    "rss_url": "https://research.aurainfosec.io/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "OALABS Research",
+    "domain": "research.openanalysis.net",
+    "rss_url": "https://research.openanalysis.net/feed.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Reverse Engineering",
+    "domain": "revers.engineering",
+    "rss_url": "https://revers.engineering/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Unsupervised Learning",
+    "domain": "rss.beehiiv.com",
+    "rss_url": "https://rss.beehiiv.com/feeds/gQxaV1KHkQ.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Salt Security Blog",
+    "domain": "salt.security",
+    "rss_url": "https://salt.security/blog/rss.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Sansec - experts in eCommerce security",
+    "domain": "sansec.io",
+    "rss_url": "https://sansec.io/atom.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Pavel Yosifovich",
+    "domain": "scorpiosoftware.net",
+    "rss_url": "https://scorpiosoftware.net/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Okta Security RSS Feed",
+    "domain": "sec.okta.com",
+    "rss_url": "https://sec.okta.com/rss.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "secret club",
+    "domain": "secret.club",
+    "rss_url": "https://secret.club/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Securelist",
+    "domain": "securelist.com",
+    "rss_url": "https://securelist.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Datadog Security Labs",
+    "domain": "securitylabs.datadoghq.com",
+    "rss_url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Shells.Systems",
+    "domain": "shells.systems",
+    "rss_url": "https://shells.systems/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "shellsharks All Content",
+    "domain": "shellsharks.com",
+    "rss_url": "https://shellsharks.com/feeds/all-feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "simondotsh\u2019s infosec blog",
+    "domain": "simondotsh.com",
+    "rss_url": "https://simondotsh.com/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Spaceraccoon's Blog",
+    "domain": "spaceraccoon.dev",
+    "rss_url": "https://spaceraccoon.dev/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Source Incite",
+    "domain": "srcincite.io",
+    "rss_url": "https://srcincite.io/feed",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Security Research & Defense",
+    "domain": "srd.cx",
+    "rss_url": "https://srd.cx/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Home on STAR Labs",
+    "domain": "starlabs.sg",
+    "rss_url": "https://starlabs.sg/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Microsoft Security Blog",
+    "domain": "thalpius.com",
+    "rss_url": "https://thalpius.com/feed/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The Contractor",
+    "domain": "thecontractor.io",
+    "rss_url": "https://thecontractor.io/rss/",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "The DFIR Report",
+    "domain": "thedfirreport.com",
+    "rss_url": "https://thedfirreport.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "theevilbit blog",
+    "domain": "theevilbit.github.io",
+    "rss_url": "https://theevilbit.github.io/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "tool-release"
+    ]
+  },
+  {
+    "name": "White Knight Labs",
+    "domain": "whiteknightlabs.com",
+    "rss_url": "https://whiteknightlabs.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "tool-release",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Worth Doing Badly",
+    "domain": "worthdoingbadly.com",
+    "rss_url": "https://worthdoingbadly.com/feed.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "antiTree",
+    "domain": "antitree.com",
+    "rss_url": "https://www.antitree.com/index.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Aqua",
+    "domain": "aquasec.com",
+    "rss_url": "https://www.aquasec.com/feed/",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "CISA Blog",
+    "domain": "cisa.gov",
+    "rss_url": "https://www.cisa.gov/blog.xml",
+    "tier": 2,
+    "category_bias": [
+      "industry"
+    ]
+  },
+  {
+    "name": "David Buchanan's Blog",
+    "domain": "da.vidbuchanan.co.uk",
+    "rss_url": "https://www.da.vidbuchanan.co.uk/blog/rss.xml",
+    "tier": 3,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Datadog",
+    "domain": "datadoghq.com",
+    "rss_url": "https://www.datadoghq.com/blog/index.xml",
+    "tier": 2,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "evilsocket",
+    "domain": "evilsocket.net",
+    "rss_url": "https://www.evilsocket.net/atom.xml",
+    "tier": 2,
+    "category_bias": [
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "SentinelOne",
+    "domain": "sentinelone.com",
+    "rss_url": "https://www.sentinelone.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Sygnia",
+    "domain": "sygnia.co",
+    "rss_url": "https://www.sygnia.co/feed/",
+    "tier": 2,
+    "category_bias": [
+      "nation-state",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "Cycode Blog",
+    "domain": "cycode.com",
+    "rss_url": "https://cycode.com/feed/",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability",
+      "supply-chain"
+    ]
+  },
+  {
+    "name": "blackfield",
+    "domain": "blackfield.ch",
+    "rss_url": "https://blackfield.ch/feed.xml",
+    "tier": 1,
+    "category_bias": [
+      "vulnerability",
+      "active-directory"
     ]
   }
 ]
