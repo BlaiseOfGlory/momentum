@@ -232,7 +232,8 @@
     "tier": 1,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -242,7 +243,8 @@
     "tier": 1,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -357,7 +359,8 @@
     "rss_url": "https://0xv1n.github.io/index.xml",
     "tier": 3,
     "category_bias": [
-      "tool-release"
+      "tool-release",
+      "tradecraft"
     ]
   },
   {
@@ -403,7 +406,8 @@
     "rss_url": "https://assume-breach.medium.com/feed",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -639,7 +643,8 @@
     "tier": 2,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -666,7 +671,8 @@
     "rss_url": "https://breakdev.org/rss/",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -712,7 +718,8 @@
     "rss_url": "https://cicada-8.medium.com/feed",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -778,7 +785,8 @@
     "rss_url": "https://connormcgarr.github.io/feed.xml",
     "tier": 3,
     "category_bias": [
-      "tool-release"
+      "tool-release",
+      "tradecraft"
     ]
   },
   {
@@ -805,7 +813,8 @@
     "rss_url": "https://decoder.cloud/feed/",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -923,7 +932,8 @@
     "rss_url": "https://hackingthe.cloud/feed_rss_created.xml",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -932,7 +942,8 @@
     "rss_url": "https://hausec.com/feed/",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -959,7 +970,8 @@
     "rss_url": "https://itm4n.github.io/feed",
     "tier": 3,
     "category_bias": [
-      "tool-release"
+      "tool-release",
+      "tradecraft"
     ]
   },
   {
@@ -1022,7 +1034,8 @@
     "rss_url": "https://malacupa.com/atom.xml",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1040,7 +1053,8 @@
     "rss_url": "https://mayfly277.github.io/feed",
     "tier": 3,
     "category_bias": [
-      "tool-release"
+      "tool-release",
+      "tradecraft"
     ]
   },
   {
@@ -1077,7 +1091,8 @@
     "tier": 3,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1215,7 +1230,8 @@
     "tier": 3,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1244,7 +1260,8 @@
     "rss_url": "https://research.aurainfosec.io/index.xml",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1262,7 +1279,8 @@
     "rss_url": "https://revers.engineering/feed/",
     "tier": 3,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1445,7 +1463,8 @@
     "tier": 2,
     "category_bias": [
       "tool-release",
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1509,7 +1528,8 @@
     "rss_url": "https://www.evilsocket.net/atom.xml",
     "tier": 2,
     "category_bias": [
-      "vulnerability"
+      "vulnerability",
+      "tradecraft"
     ]
   },
   {
@@ -1549,7 +1569,8 @@
     "tier": 1,
     "category_bias": [
       "vulnerability",
-      "active-directory"
+      "active-directory",
+      "tradecraft"
     ]
   }
 ]
