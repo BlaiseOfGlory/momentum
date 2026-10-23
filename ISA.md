@@ -3,10 +3,10 @@ task: Build RSS ingestion pipeline for Momentum news scorer
 slug: momentum-rss
 effort: advanced
 phase: complete
-progress: 34/34
+progress: 46/46
 project: momentum
 started: 2026-05-08T22:40:00Z
-updated: 2026-05-08T22:40:00Z
+updated: 2026-06-10T17:35:00Z
 ---
 
 ## Problem
@@ -69,6 +69,18 @@ Build a working RSS ingestion CLI (`momentum`) in Bun/TypeScript that polls 14 c
 - [x] ISC-32: README.md with setup and command reference
 - [x] ISC-33: `bun run src/index.ts` executes without errors when no data directory exists yet
 - [x] ISC-34: Anti: No hardcoded paths — data directory derived from env or default
+- [x] ISC-35: `https://illusivedan.com/rss.xml` returns HTTP 200 with valid RSS 2.0 XML
+- [x] ISC-36: Live config `~/.config/momentum/sources.json` contains illusivedan.com entry (name "Dan Guido (illusivedan)", tier 1, bias ai-security+industry)
+- [x] ISC-37: Repo bundled `sources.json` contains the identical illusivedan.com entry
+- [x] ISC-38: Live config contains daniel.haxx.se entry (drift sync from repo copy)
+- [x] ISC-39: Both registry files parse as valid JSON with 16 entries and no duplicate domains
+- [x] ISC-40: `momentum sources` lists Dan Guido (illusivedan) at tier 1
+- [x] ISC-41: `momentum ingest` reports illusivedan feed status ok with new articles stored
+- [x] ISC-42: `articles.jsonl` contains illusivedan.com articles with origin "rss" and source_tier 1
+- [x] ISC-43: Re-running ingest yields 0 new illusivedan articles (URL dedup holds)
+- [x] ISC-44: Anti: no pre-existing source entry removed or modified in either registry
+- [x] ISC-45: Anti: illusivedan NOT added to watchlist.json — RSS exists; the watchlist is the scraper fallback for non-RSS sites
+- [x] ISC-46: curl feed (daniel.haxx.se) ingests successfully after drift sync
 
 ## Test Strategy
 
@@ -108,6 +120,18 @@ Build a working RSS ingestion CLI (`momentum`) in Bun/TypeScript that polls 14 c
 | ISC-32 | file | Read README.md | Setup + commands documented | Read |
 | ISC-33 | runtime | Run from clean state | No crash, creates data dir | Bash |
 | ISC-34 | code | Grep for hardcoded paths | No /home/harvey or absolute paths | Grep |
+| ISC-35 | runtime | curl rss.xml | HTTP 200, RSS 2.0, ≥1 item | Bash curl |
+| ISC-36 | file | Read live config | Entry with all 5 fields correct | Read |
+| ISC-37 | file | Read repo sources.json | Identical entry | Read |
+| ISC-38 | file | Read live config | daniel.haxx.se entry present | Read |
+| ISC-39 | runtime | JSON parse both files | 16 entries each, no dupe domains | Bash |
+| ISC-40 | runtime | momentum sources | Row for illusivedan tier 1 | Bash |
+| ISC-41 | runtime | momentum ingest | "Dan Guido (illusivedan),N,ok" | Bash |
+| ISC-42 | runtime | rg articles.jsonl | origin=rss, source_tier=1 | Bash |
+| ISC-43 | runtime | Second ingest run | 0 new, 4 skipped | Bash |
+| ISC-44 | runtime | Domain-list before/after compare | Only additions, no removals | Bash |
+| ISC-45 | file | Read watchlist.json | No illusivedan entry | Read |
+| ISC-46 | runtime | momentum ingest | "Daniel Stenberg (curl),10,ok" | Bash |
 
 ## Features
 
@@ -125,3 +149,24 @@ Build a working RSS ingestion CLI (`momentum`) in Bun/TypeScript that polls 14 c
 | cli-routing | Entry point, subcommand dispatch, --help | ISC-2, ISC-18 | all commands | no |
 | readme | Setup and command docs | ISC-32 | cli-routing | no |
 | feed-verification | Verify RSS URLs are real and fetchable | ISC-4 | rss-parser | no |
+| add-illusivedan-feed | Dan Guido blog as tier-1 RSS source + curl-feed drift sync | ISC-35..ISC-46 | source-registry | no |
+
+## Decisions
+
+- 2026-06-10: Added illusivedan.com (Dan Guido, Trail of Bits CEO) as tier 1 with category_bias [ai-security, industry]. Site declares RSS at /rss.xml, so it belongs in sources.json — not watchlist.json (the scraper list, reserved for non-RSS sites).
+- 2026-06-10: Drift found and fixed — "Daniel Stenberg (curl)" existed only in the repo's bundled sources.json, never in the live `~/.config/momentum/sources.json` that ingest actually reads (0 articles ever ingested). Root cause: repo copy edited after the first-run fork; the live config is the ingestion point. Synced. Watch for this on future source additions: edit the live config, mirror to repo.
+- 2026-06-10: show-math — delegation floor (E2 ≥1) relaxed: single-registry config edit plus one CLI verification run; an agent adds spawn latency with zero parallelism benefit. ISC soft floor 16 → 12: natural atomic-probe granularity produced 12; padding would create non-atomic filler.
+
+## Verification
+
+- ISC-35: curl — HTTP 200, `<rss version="2.0">`, 4 items (Hacker Spirit Scholarship, Archive interview, ACCORD, killer script kiddies)
+- ISC-36/37: Read — both files carry identical entry: name "Dan Guido (illusivedan)", domain illusivedan.com, rss_url https://illusivedan.com/rss.xml, tier 1, bias [ai-security, industry]
+- ISC-38: Read — daniel.haxx.se entry now in live config
+- ISC-39: python json.load — live: 16, repo: 16, dupes: False
+- ISC-40: Bash — `Dan Guido (illusivedan),illusivedan.com,1,https://illusivedan.com/rss.xml`
+- ISC-41: Bash — ingest run: `Dan Guido (illusivedan),4,0,ok`
+- ISC-42: rg articles.jsonl — 4 records, all `"origin":"rss","source_tier":1` (e.g. "The whole Trail of Bits story")
+- ISC-43: Bash — second ingest: `Dan Guido (illusivedan),0,4,ok`
+- ISC-44: Bash — live went 14→16 (two additions), repo 15→16 (one addition); domain lists otherwise identical
+- ISC-45: Read — watchlist.json unchanged: afflicted.sh, stuart-thomas.com, red.anthropic.com only
+- ISC-46: Bash — ingest run: `Daniel Stenberg (curl),10,0,ok`, 10 articles stored
