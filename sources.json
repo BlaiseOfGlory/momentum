@@ -289,7 +289,7 @@
   {
     "name": "Hack The Box - Red Team",
     "domain": "hackthebox.com",
-    "rss_url": "https://www.hackthebox.com/rss/blog/red-teaming",
+    "rss_url": "https://www.hackthebox.com/blog/tag/red-teaming/rss.xml",
     "tier": 2,
     "category_bias": [
       "tool-release",
@@ -458,7 +458,7 @@
   {
     "name": "The Cloudflare Blog",
     "domain": "blog.cloudflare.com",
-    "rss_url": "https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/rss",
+    "rss_url": "https://blog.cloudflare.com/rss",
     "tier": 3,
     "category_bias": [
       "vulnerability"
@@ -547,8 +547,8 @@
   },
   {
     "name": "Pwned Labs Blog",
-    "domain": "blog.pwnedlabs.io",
-    "rss_url": "https://blog.pwnedlabs.io/rss.xml",
+    "domain": "pwnedlabs.io",
+    "rss_url": "https://pwnedlabs.io/blog/rss.xml",
     "tier": 3,
     "category_bias": [
       "vulnerability"
@@ -1003,8 +1003,8 @@
   },
   {
     "name": "Cognisys Group Labs",
-    "domain": "labs.cognisys.group",
-    "rss_url": "https://labs.cognisys.group/feed",
+    "domain": "cognisys.co.uk",
+    "rss_url": "https://cognisys.co.uk/feed/",
     "tier": 3,
     "category_bias": [
       "vulnerability"
@@ -1357,15 +1357,6 @@
     ]
   },
   {
-    "name": "Shells.Systems",
-    "domain": "shells.systems",
-    "rss_url": "https://shells.systems/feed/",
-    "tier": 3,
-    "category_bias": [
-      "vulnerability"
-    ]
-  },
-  {
     "name": "shellsharks All Content",
     "domain": "shellsharks.com",
     "rss_url": "https://shellsharks.com/feeds/all-feed.xml",
@@ -1423,15 +1414,6 @@
     "name": "Microsoft Security Blog",
     "domain": "thalpius.com",
     "rss_url": "https://thalpius.com/feed/",
-    "tier": 3,
-    "category_bias": [
-      "vulnerability"
-    ]
-  },
-  {
-    "name": "The Contractor",
-    "domain": "thecontractor.io",
-    "rss_url": "https://thecontractor.io/rss/",
     "tier": 3,
     "category_bias": [
       "vulnerability"
@@ -1535,7 +1517,7 @@
   {
     "name": "SentinelOne",
     "domain": "sentinelone.com",
-    "rss_url": "https://www.sentinelone.com/feed/",
+    "rss_url": "https://www.sentinelone.com/labs/feed/",
     "tier": 1,
     "category_bias": [
       "nation-state",
@@ -1571,6 +1553,16 @@
       "vulnerability",
       "active-directory",
       "tradecraft"
+    ]
+  },
+  {
+    "name": "Security Affairs",
+    "domain": "securityaffairs.com",
+    "rss_url": "https://securityaffairs.com/feed",
+    "tier": 2,
+    "category_bias": [
+      "breach",
+      "vulnerability"
     ]
   }
 ]
